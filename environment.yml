@@ -1,7 +1,26 @@
-name: cookbook-dev
+name: mpasviewer-cookbook-dev
 channels:
   - conda-forge
 dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - python>=3.11
+  - bokeh>=3.8.1
+  - cartopy>=0.25.0
+  - dask>=2025.9.1
+  - fsspec>=2025.9.0
+  - ipykernel>=6.30.1
+  - matplotlib>=3.10.6
+  - netcdf4>=1.7.2
+  - numpy>=2.2.6
+  - s3fs>=2025.9.0
+  - scipy>=1.15.3
+  - spyder-kernels=3.0
+  - xarray>=2025.6.1
+  - zarr>=2.18.3
+  - pip
+
+  - pip:
+      - git+https://github.com/jhbravo/earthcmap.git      
+      - git+https://github.com/jhbravo/mpasviewer.git
