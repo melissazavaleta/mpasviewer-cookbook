@@ -4,7 +4,7 @@ extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: Project Pythia MPAS viewer Cookbook
-  github: https://github.com/projectpythia/cookbook-template
+  github: https://github.com/projectpythia/mpasviewer-cookbook
   authors:
     - name: The visualization of MPAS data
   copyright: '2026'
@@ -19,4 +19,4 @@ project:
   jupyter:
       binder:
         url: https://binder.projectpythia.org
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/mpasviewer-cookbook
