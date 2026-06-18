@@ -19,6 +19,7 @@ project:
     - title: Examples 
       children: 
         - file: notebooks/README.md
+        - file: notebooks/convective-environments.ipynb
   jupyter:
       binder:
         url: https://binder.projectpythia.org
