@@ -16,6 +16,9 @@ project:
     - title: How to cite
       children:
         - file: notebooks/how-to-cite.md
+    - title: Examples 
+      children: 
+        - file: notebooks/README.md
   jupyter:
       binder:
         url: https://binder.projectpythia.org
